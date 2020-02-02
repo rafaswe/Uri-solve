@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int n,wh;
+    double ph,s;
+    scanf("%d%d%lf",&n,&wh,&ph);
+    s=wh * ph;
+    printf("NUMBER = %d\nSALARY = U$ %0.2lf\n",n,s);
+    return 0;
+
+
+}
+
+
