@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+   double R,Pi=3.14159,A;
+   scanf("%lf",&R);
+   A=Pi*R*R;
+   printf("A=%0.4lf\n",A);
+}
+
+
